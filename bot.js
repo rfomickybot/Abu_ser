@@ -113,13 +113,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         console.log(
             chalk.blueBright.italic('Confirming password...')
         );
-        if (config.AFPLK == 'AFAMK' || config.AFPLK == 'afamk' || config.AFPLK == 'Afamk' || config.AFPLK == 'pinky') {
+        if (config.AFPLK == 'Abuser' || config.AFPLK == 'ABU' || config.AFPLK == 'Abu' || config.AFPLK == 'pinky') {
         //thanks to afnanplk
         console.log(
             chalk.green.bold('thanks for watching -key cofirmed-')
         );
          }
-         else if (config.AFPLK !== 'AFAMK' || config.AFPLK !== 'afamk' || config.AFPLK !== 'Afamk' || config.AFPLK !== 'pinky') {
+         else if (config.AFPLK !== 'Abuser' || config.AFPLK !== 'ABU' || config.AFPLK !== 'Abu' || config.AFPLK !== 'pinky') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
          throw new Error("Password Error ⚠⚠ ");         
@@ -153,7 +153,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('Miss Helena Working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            chalk.green.bold('Abu Ser Working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
           if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -186,7 +186,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BY ABU ]*\n\n' + announce, MessageType.text);
         }
 		while (getGMTh == 13 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -196,7 +196,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BY ABU ]*\n\n' + announce, MessageType.text);
         }
 		while (getGMTh == 17 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -206,7 +206,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BY ABU ]*\n\n' + announce, MessageType.text);
         } 
 		while (getGMTh == 21 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -216,7 +216,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS BY ABU ]*\n\n' + announce, MessageType.text);
         }
     }, 50000);//Thanks to souravkl11 
 
@@ -351,7 +351,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Helena ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ ABU ~______~*' +
                                     '\n*🌀 Entho Evideyo Oru Preshnam Ullath Pole Thonunnu' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
