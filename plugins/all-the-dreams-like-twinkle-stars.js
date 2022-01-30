@@ -1,5 +1,5 @@
-/* Amalser Bot
-Re-edit Amalser
+/* Abuser Bot
+Re-edit Abuser
 */
 
 const Amalser = require('../events');
@@ -26,7 +26,7 @@ Amalser.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (a
       
       const buttonMessage = {
           contentText: '```'+Config.BOT+'\n\n```'+Config.ALIVEMSG+'\n',
-          footerText: 'Amalser ©',
+          footerText: '©Aʙᴜ Sᴇʀ™',
           buttons: buttons,
           headerType: 1
       }
