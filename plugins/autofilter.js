@@ -10,7 +10,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-asena.addCommand({pattern: 'rafi', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+asena.addCommand({pattern: 'Abu', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -24,7 +24,7 @@ asena.addCommand({pattern: 'rafi', fromMe: true, deleteCommand: true, desc: GM,}
 
     }));
 
-asena.addCommand({pattern: 'ameen', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
+asena.addCommand({pattern: 'Kalan', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
 
         var r_text = new Array ();
 
@@ -42,7 +42,7 @@ asena.addCommand({pattern: 'ameen', fromMe: true, deleteCommand: true, desc: GN,
 
     if (Config.WORKTYPE == 'public') {
 
-        asena.addCommand({pattern: 'rafi', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+        asena.addCommand({pattern: 'Abu', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
             var r_text = new Array ();
 
@@ -56,11 +56,11 @@ asena.addCommand({pattern: 'ameen', fromMe: true, deleteCommand: true, desc: GN,
 
             }));
 
-        asena.addCommand({pattern: 'ameen', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
+        asena.addCommand({pattern: 'Amru', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
 
                 var r_text = new Array ();
 
-                r_text[1] = "𝙸 𝙺𝚗𝚘𝚠 𝙷𝚎 𝙸𝚜 𝙼𝚢 𝙰𝚜𝚜𝚒𝚜𝚝𝚎𝚗𝚍";
+                r_text[1] = "𝙸 𝙺𝚗𝚘𝚠 𝙷𝚎 𝙸𝚜 𝙼𝚢 𝙰𝚜𝚜𝚒𝚜𝚝𝚎𝚗𝚍 𝐀𝐧𝐝 𝐤𝐮𝐧𝐝𝐚𝐧 𝐚𝐦𝐫𝐮 ";
           
                 var i = Math.floor(2*Math.random())
 
