@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Amalser.
+/* Copyright (C) 2020 Abuser.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Amalser - Amal,farhan
+Abuser - Abu,Jasil
 */
 
 const Asena = require('../events');
