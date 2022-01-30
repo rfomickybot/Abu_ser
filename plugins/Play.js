@@ -6,7 +6,7 @@ const got = require('got');
 
 const Config = require('../config');
 
-const LOAD_ING = "*wait... Trying To Find*"
+const LOAD_ING = "*💙wait... Nᴊᴀɴ Tʜᴀᴘᴘɪᴋᴏɴᴅɪʀɪᴋᴋᴀɴ❤️*"
 
 const axios = require('axios')
 
@@ -30,7 +30,7 @@ Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: 'search your song'
 
 	
 
-        if(!status) return await message.sendMessage('*NO RESULT FOUND*')
+        if(!status) return await message.sendMessage('*💙Mᴜᴛʜᴇ Kɪᴛɪʏɪʟʟᴀᴅᴀ😥*')
 
 	
 
