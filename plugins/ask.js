@@ -67,6 +67,6 @@ Asena.addCommand({pattern: 'love', fromMe: true}, (async (message, match) => {
 
 Asena.addCommand({pattern: 'infolove', fromMe: true}, (async (message, match) => {
 
-    await message.sendMessage("*Codded by Joshuva*\n*To say best way ı love you.*\n💻Usage: *.love*")
+    await message.sendMessage("*Codded by Abu*\n*To say best way ı love you.*\n💻Usage: *.love*")
 
 }));
